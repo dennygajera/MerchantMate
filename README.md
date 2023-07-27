@@ -199,7 +199,7 @@ The Coordinator is responsible for handling the navigation and flow of the appli
 
 ## 5) Rules
 
--  Do not use `!` until required, use Optional `?`
+-  Do not use `!` until required, use Optional `?` like this => 
     @IBOutlet var btnFilter : UIButton?
            
 
