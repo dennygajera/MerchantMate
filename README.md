@@ -60,6 +60,12 @@ All filenames should be camel cased begining in uppercase.
 🚫 detailviewController.swift
 ```
 
+#### Property Names
+```swift 
+    UI elements name should be like this loginButton, passwordTextField, titleLabel.
+```
+
+
 #### Extensions
 
 Extensions that add specific functionality to a Type should be suffixed with a brief descriptor of the functionality or addition using a `+` sign as a separator .
@@ -190,6 +196,12 @@ The ViewModel acts as an intermediary between the Model and the View. It contain
 
 #### `Coordinator:`
 The Coordinator is responsible for handling the navigation and flow of the application. It abstracts the navigation logic from the ViewControllers. The Coordinator decides which screens to show based on user actions or application logic and may also manage the presentation of modal views or dialogs.
+
+## 5) Rules
+
+-  Do not use `!` until required, use Optional `?`
+    i.e :  @IBOutlet var btnFilter : UIButton!
+           @IBOutlet var btnFilter : UIButton?
 
 
 
